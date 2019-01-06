@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/icon" href="icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title> One PAGE Web</title>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body >
+
+						<span  id="s1" class="three" onclick="slider()">&#9776;</span>
+				<div onclick="out()">			<div >
+
+	<h1 style="font-family:Impact;letter-spacing: 4px; padding-left: 130px">MSTC</h1></div>
+	<h4  style="padding-left: 135px;"> presents</h4>
+		<img src="microsoft1.png" height="190px" width="50%" style="float: right;">
+	<p id="p1">Winter Of Code</p>
+
+
+	<div id="slider" class="navs">
+		<a  class="close" onclick="closes()">&plus;</a>
+		<a href="index.html" style="padding-top: 50px"> Home</a> 
+		<a href="onepage.html"> One Page web</a>
+		<a href="javagame.html"> Java script game</a>
+		<a href="pingpo.html">Ping Pong</a>
+		<a href="list.html">To do List</a>
+		<a href="url.html">URL shorter</a>
+		<a href="webscript.html">Web Scraping</a>
+		<a href="colning.html">Colning</a>
+
+	</div>
+	<div onscroll ="scroll()"></div>
+		<!--<img src="threeline.png" width="20px" height="20px" id="three" onclick="slider()">-->
+		<div >
+			<br><br>
+			<div >	<br><br>
+			<div class="first">
+				<p>Java Script Game</p>
+			</div>
+
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			Main Idea Of this project
+		</div><br>
+			<br><br>
+			<div class="hometext">
+				The Quiz Game can be made using JS using various approaches and some of the approaches and their functionalities are mentioned bellow. You can develop your game using these approaches or if you have any different approach in the mind you can discuss it with you mentor and can develop it.
+
+			</div>
+			<br>
+			<hr width="4%" align="center" color="black" style="color: black;">
+			<br>
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			Approach 1
+		</div><br>
+		<div class="hometext">
+			In this approach of the game the user gets a list of question and can answer in whichever order he wants (which means the user can surf around the questions) and at the submission or completion of the quiz, the result will be shown. 
+		</div>
+		<br>
+			<hr width="4%" align="center" color="black" style="color: black;">
+			<br>
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			Functionalities
+		</div><br>
+		<ol type="1" class="hometext1">
+			<li>&nbsp;The first basic functionality of the game is to have a <b>home page</b> from where the user can select the genre of the quiz whichever he/she wants to play.
+</li>
+		<li>&nbsp;Once the user selects the <b>genre</b>, the user must be transferred to the <b>Quiz Start page </b>which asks for the player’s name and a start button.</li>
+		<li>&nbsp;On the click of the start button the user must be asked for<b> reconfirmation</b> of the starting the quiz and on getting the positive response the user must be transferred to the question answers page.
+</li>
+		<li>&nbsp;It is preferable that you generate <b>individual pages for individual questions</b> rather than displaying all the questions on a single page. (Try to use some data structure to store these questions and try not to hardcode the questions.)
+</li>
+		<li>&nbsp;Each question page should have its respective options and the following buttons:<br>
+<b>Previous:</b> To redirect the user to the previous question.(This button should be inactive on the first question)<br>
+<b>Next:</b> To redirect the question to the next question.(This button should be inactive on the last question)<br>
+<b>Submit:</b> To submit the quiz and end it.
+</li>
+		<li>&nbsp;Try to add the functionality of the  <b>timer</b> in it.
+</li>
+		<li>&nbsp; At the end once the user submits the quiz it should get the <b>report</b> of the quiz played which shows total attempted questions, correctly answered, and wrongly answered and the <b>score</b> calculating all of it.
+</li>
+		<li>&nbsp; At the end there should be a button to redirect to the <b>home page</b> of the game.
+</li>
+<li>&nbsp;Try to maintain a <b>record</b> of the players and their scores according to the genre which can be showed when the user submits the quiz to show the<b> ranking</b> of the user.
+</li>
+<li>&nbsp;Make sure the<b> evaluation</b> of the questions is done <b>correctly.</b>
+</li>
+			
+		</ol>
+			<br>
+			<hr width="4%" align="center" color="black" style="color: black;">
+			<br>
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			Approach 2
+		</div><br>
+			<br>
+			<div class="hometext">
+				In this approach, the game would be level oriented. There would be a certain number of levels and the user need to complete all those level to win the game. At every level the user needs to answer the question and if the answer is correct the user gets promoted to the next level.( You can decide the number of levels and number of questions in each level according to your convenience).On wrong response to the question the game gets over and need to start again from the beginning.
+
+			</div>
+			<hr width="4%" align="center" color="black" style="color: black;">
+			<br>
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			Functionalities
+		</div><br>
+		<ol class="hometext1">
+		<li>&nbsp;The first basic functionality of the game is to have a<b> home page</b> from where the user can select the genre of the quiz whichever he/she wants to play.
+</li>
+		<li>&nbsp;Once the user selects the<b> genre,</b> the user must be transferred to the <b>Quiz Start page</b> which asks for the player’s name and a start button.
+</li>
+		<li>&nbsp;On the click of the start button the user must be asked for <b>reconfirmation</b> of the starting the quiz and on getting the positive response the user must be transferred to the <b>Level 1 page.</b></li>
+		<li>&nbsp;If the response of the question asked in Level 1 is <b>correct</b> the user should be<b> moved</b> to the<b> Level 2</b> page and if the response is <b>wrong</b> the game gets over and the user gets redirected to the home page by showing<b> appropriate message </b>of game over.
+</li>
+		<li>&nbsp;On the correct response of each question the <b> Level</b> of the user should be <b>increased</b> each time and when the user surpasses the <b>highest level</b>, he should be declared <b>winner</b> and transformed to the Winner page and then to the home page.
+</li>
+		<li>&nbsp;Make sure the <b>evaluation</b> is done correctly at every level.
+
+</li>
+		</ol>
+
+			<br><br>
+			<div class="hometext1">
+				<b>
+					Note: Implementing all the functionalities is not compulsory but implement as many as you can as it will help you in learning more and getting more comfortable with HTML,CSS and JS.
+ 
+				</b><br>
+			<hr width="4%" align="center" color="black" style="color: black;">
+			<br>
+
+			<div style="text-decoration: underline;font-size: 30px; color:#343434;text-align: center;">
+			where to start??
+		</div><br>
+			</div>
+		<div class="hometext">
+			This would be striking in your mind but no worries we have got it covered. You should start learning from the basics daily and implementing and practising a lot.<br><br>
+			<span class="contect"><a href="https://www.w3schools.com/">This</a></span> is the best resources to learn HTML, CSS and JavaScript. Understand the working of each tags. It would be very good if you know all the tags and syntax upfront but it’s okay if you don’t, you can always reference this site and proceed. Go through the tutorials they are very specific and easy to grab. Once you have finished the tutorials feel confident because it’s enough for our project.<br><br>
+We would be discussing your ideas in our WhatsApp Group and will keep your at each and every step. So don’t worry and feel free to contact any of the mentors for any queries.
+
+
+		</div>
+
+			<br><br>
+			<br><br>
+			<br><br>
+	
+			<br><br><hr  color="black" style="color: black;width: 80%">
+					<div class="contect">
+						contect:- Chirag  9375468486<br>
+						<a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">  microsoftclub@daiict.ac.in</a>
+						<p>visit:- <a href="http://mstc.byethost14.com/?i=1" target="_blank" > Offical Website</a></p>
+
+					</div>
+		<hr  color="black" style="color: black;width: 80%">
+
+	</div>
+</div>
+<h3 align="center">Follow us on</h3>
+<div  align="middle">
+	<a href="https://www.facebook.com/mstcatdaiict/" target="_blank" class="fa fa-facebook" ></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/mstc.daiict/?hl=en" target="_blank" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+
+</div>
+</body>
+</html>
